@@ -1,0 +1,2 @@
+[console_scripts]
+cvpsearch = cvp_search.main:main
