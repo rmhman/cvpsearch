@@ -39,7 +39,7 @@ def display_results(results: Dict, search_string: str, show_lines: bool = False,
         case_insensitive: Whether search was case-insensitive
     """
     print(f"\nFound {results['total_count']} configlets matching '{search_string}':")
-    print("-" * 50)
+    print("-" * 69)
     
     for configlet in results['configlets']:
         if show_lines:
@@ -54,4 +54,4 @@ def display_results(results: Dict, search_string: str, show_lines: bool = False,
         else:
             print(configlet['name'])
         
-    print(f"\nTotal configlets found: {results['total_count']}")
+    print(f"\nTotal configlets found: {results['total_count']}\n\n")
