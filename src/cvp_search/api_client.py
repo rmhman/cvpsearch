@@ -14,7 +14,7 @@ urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
 class CVPApiClient:
     def __init__(self):
         self.api_key = self._get_api_key()
-        self.base_url = "https://usvad001cvpsr01a.corp.internal.citizensbank.com/cvpservice"
+        self.base_url = "https://<your_server>/cvpservice"
         self.headers = {
             'Authorization': f'Bearer {self.api_key}',
             'Accept': 'application/json',
