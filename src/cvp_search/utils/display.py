@@ -54,4 +54,6 @@ def display_results(results: Dict, search_string: str, show_lines: bool = False,
         else:
             print(configlet['name'])
         
-    print(f"\nTotal configlets found: {results['total_count']}\n\n")
+    print(f"\nTotal configlets found: {results['total_count']}")
+    print("_" * 69)
+    print()
